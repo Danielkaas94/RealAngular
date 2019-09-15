@@ -1,3 +1,24 @@
+<h1>{{testForm.status}}</h1>
+
 <p>
   test works!
 </p>
+
+<form [formGroup]="testForm" (ngSubmit)="onSubmit(testForm.value)">
+  <input type="text" class="form-control" formControlName="name">
+  <div class="error-message" *ngIf="testForm.get('name').touched && testForm.get('name').hasError('required')">
+    <h3>Name is required</h3>
+  </div>
+
+  <br>
+  <br>
+
+  <input type="text" class="form-control" formControlName="text">
+  <div class="error-message" *ngIf="testForm.get('text').touched && testForm.get('text').hasError('required')">
+    <h3>Text is required</h3>
+  </div>
+
+  <br>
+
+  <button type="submit" class="btn btn-secondary">Submit</button>
+</form>
