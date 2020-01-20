@@ -5,8 +5,13 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class KapitalPipe implements PipeTransform {
 
-  transform(value: any, args?: any): any {
-    return null;
+  
+  transform(startKapital: any, termin: any, rente:any): any {
+    console.log(startKapital);
+    console.log(termin);
+    console.log(rente);
+
+    return (startKapital * ( 1 + (rente / 100)) ** termin).toFixed();
   }
 
 }
