@@ -9,6 +9,7 @@ import { KapitalPipe } from './pipes/kapital.pipe';
 import { FileSizePipe } from './pipes/file-size.pipe';
 import { LengthConverterPipe } from './pipes/length-converter.pipe';
 import { JustTestingPipe } from './pipes/just-testing.pipe';
+import { BallsComponent } from './component/balls/balls.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { JustTestingPipe } from './pipes/just-testing.pipe';
     FileSizePipe,
     LengthConverterPipe,
     JustTestingPipe,
+    BallsComponent,
   ],
   imports: [
     BrowserModule,
