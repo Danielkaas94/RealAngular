@@ -8,6 +8,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 >Shia LaBeouf "Just Do It" Motivational Speech
 
 
+# Table of Contents
+<details><summary>➡ Click To Reveal ⬅</summary>
+
+### So far, this angular project contains the following:
+
+* Basic Pipes ||
+* Ballsy component with some [matter-js](https://github.com/liabru/matter-js) 🤹‍♂️🎱
+* To Be Continued™
+
+</details>
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
