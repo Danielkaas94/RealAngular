@@ -1,0 +1,179 @@
+/* Thanks to Jhey - https://codepen.io/jh3y/pen/bzJOOR */
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: #eee;
+    /* min-height: 100vh; */
+  }
+  .triangle {
+    border-style: solid;
+    border-color: transparent;
+    /* border-bottom-color: #4d05e8; */
+    /* border-bottom-color: red; */
+    /* border-bottom-color: springgreen; */
+    /* border-bottom-color: teal; */
+    border-bottom-color: blue; /* "Fifteen dollars, for fucking blue! ~ Angry Joe" */
+    /* border-bottom-color: red; */
+    /* border-bottom-color: purple; */
+    /* border-bottom-color: rgb(0, 255, 0); */
+    border-bottom-color: rgba(0, 255, 0,0.1);
+    /* border-bottom-color: #00ff00; */
+    /* border-image: line */
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+    border-width: 0 50px 86.60254037844386px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-duration: 2.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
+  .triangle--one {
+    /* filter: drop-shadow(1px 1px 1px #4d05e8); */
+    filter: drop-shadow(5px 5px 5px green);
+    transform-origin: 50% 67%;
+    animation-name: one;
+  }
+  .triangle--two {
+    transform-origin: bottom right;
+    animation-name: two;
+  }
+  .triangle--three {
+    transform-origin: top center;
+    animation-name: three;
+  }
+  .triangle--four {
+    transform-origin: bottom left;
+    animation-name: four;
+  }
+  @-moz-keyframes one {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80% {
+      transform: translate(-50%, -50%) rotate(-60deg) scale(1);
+    }
+    90%, 100% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(0.5);
+    }
+  }
+  @-webkit-keyframes one {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80% {
+      transform: translate(-50%, -50%) rotate(-60deg) scale(1);
+    }
+    90%, 100% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(0.5);
+    }
+  }
+  @-o-keyframes one {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80% {
+      transform: translate(-50%, -50%) rotate(-60deg) scale(1);
+    }
+    90%, 100% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(0.5);
+    }
+  }
+  @keyframes one {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80% {
+      transform: translate(-50%, -50%) rotate(-60deg) scale(1);
+    }
+    90%, 100% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(0.5);
+    }
+  }
+  @-moz-keyframes two {
+    0%, 10%, 20% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @-webkit-keyframes two {
+    0%, 10%, 20% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @-o-keyframes two {
+    0%, 10%, 20% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @keyframes two {
+    0%, 10%, 20% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @-moz-keyframes three {
+    0%, 10%, 20%, 30%, 40% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    50%, 60%, 70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @-webkit-keyframes three {
+    0%, 10%, 20%, 30%, 40% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    50%, 60%, 70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @-o-keyframes three {
+    0%, 10%, 20%, 30%, 40% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    50%, 60%, 70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @keyframes three {
+    0%, 10%, 20%, 30%, 40% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    50%, 60%, 70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @-moz-keyframes four {
+    0%, 10%, 20%, 30%, 40%, 50%, 60% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @-webkit-keyframes four {
+    0%, 10%, 20%, 30%, 40%, 50%, 60% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @-o-keyframes four {
+    0%, 10%, 20%, 30%, 40%, 50%, 60% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  @keyframes four {
+    0%, 10%, 20%, 30%, 40%, 50%, 60% {
+      transform: translate(-50%, 0) rotate(0deg);
+    }
+    70%, 80%, 90%, 100% {
+      transform: translate(-50%, 0) rotate(300deg);
+    }
+  }
+  
