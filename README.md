@@ -15,6 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * Basic Pipes ||
 * Ballsy component with some [matter-js](https://github.com/liabru/matter-js) 🤹‍♂️🎱
+* Jhey's Triangle 🔺
 * To Be Continued™
 
 </details>
