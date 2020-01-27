@@ -13,9 +13,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### So far, this angular project contains the following:
 
-* Basic Pipes ||
+* Basic [Pipes](https://angular.io/guide/pipes) ||
+* Basic Form validation
 * Ballsy component with some [matter-js](https://github.com/liabru/matter-js) 🤹‍♂️🎱
-* Jhey's Triangle 🔺
+* Jhey's [Triangle](https://codepen.io/jh3y/pen/bzJOOR) 🔺
+* RouterLink 🔗
+* Countdown Timer ⏱
 * To Be Continued™
 
 </details>
