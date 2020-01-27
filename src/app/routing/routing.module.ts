@@ -7,6 +7,8 @@ import { TestComponent } from 'src/app/component/test/test.component';
 import { BallsComponent } from 'src/app/component/balls/balls.component';
 import { JheyTriangleComponent } from '../component/jhey-triangle/jhey-triangle.component';
 import { AboutComponent } from '../component/about/about.component';
+import { CountdownTimerComponent } from '../component/countdown-timer/countdown-timer.component';
+
 
 
 const appRoutes: Routes = [
@@ -14,6 +16,7 @@ const appRoutes: Routes = [
   { path: 'triangle', component: JheyTriangleComponent },
   { path: 'test', component: TestComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'countDownTimer', component: CountdownTimerComponent },
 ];
 
 @NgModule({

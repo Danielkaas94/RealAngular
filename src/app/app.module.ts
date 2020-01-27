@@ -15,6 +15,7 @@ import { JheyTriangleComponent } from './component/jhey-triangle/jhey-triangle.c
 import { AboutComponent } from './component/about/about.component';
 
 import { RoutingModule } from './routing/routing.module';
+import { CountdownTimerComponent } from './component/countdown-timer/countdown-timer.component';
 
 // TODO:
 //    • ng generate module app-routing --module app --flat
@@ -40,6 +41,7 @@ import { RoutingModule } from './routing/routing.module';
     JheyTriangleComponent,
     // NavComponent,
     AboutComponent,
+    CountdownTimerComponent,
   ],
   imports: [
     BrowserModule,
