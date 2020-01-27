@@ -14,43 +14,18 @@ import { JheyTriangleComponent } from './component/jhey-triangle/jhey-triangle.c
 
 import { AboutComponent } from './component/about/about.component';
 
-import { RouterModule, Routes } from "@angular/router";
+import { RoutingModule } from './routing/routing.module';
+
 // TODO:
-  // • ng generate module app-routing --module app --flat
-
-const appRoutes: Routes = [
-  { path: 'balls', component: BallsComponent },
-  { path: 'triangle', component: JheyTriangleComponent },
-  { path: 'test', component: TestComponent },
-  { path: 'about', component: AboutComponent },
-  // { path: 'crisis-center', component: CrisisListComponent },
-  // { path: 'heroes', component: HeroListComponent },
-      // https://stackblitz.com/angular/gollxnxqxom
-      // https://alligator.io/angular/navigation-routerlink-navigate-navigatebyurl/
-  // { path: '',   redirectTo: '/heroes', pathMatch: 'full' },
-  // { path: '**', component: PageNotFoundComponent }
-];
-
+//    • ng generate module app-routing --module app --flat
+// https://stackblitz.com/angular/gollxnxqxom
+// https://alligator.io/angular/navigation-routerlink-navigate-navigatebyurl/
 // const appRoutes: Routes = [
-//   { path: 'crisis-center', component: CrisisListComponent },
-//   { path: 'heroes', component: HeroListComponent },
+//   { path: 'balls', component: BallsComponent },
+//   { path: 'triangle', component: JheyTriangleComponent },
+//   { path: 'test', component: TestComponent },
+//   { path: 'about', component: AboutComponent },
 // ];
-
-// const appRoutes: Routes = [
-//   { path: 'crisis-center', component: CrisisListComponent },
-//   { path: 'hero/:id',      component: HeroDetailComponent },
-//   {
-//     path: 'heroes',
-//     component: HeroListComponent,
-//     data: { title: 'Heroes List' }
-//   },
-//   { path: '',
-//     redirectTo: '/heroes',
-//     pathMatch: 'full'
-//   },
-//   { path: '**', component: PageNotFoundComponent }
-// ];
-
 
 @NgModule({
   declarations: [
@@ -70,10 +45,11 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
-    )
+    RoutingModule
+    // RouterModule.forRoot(
+    //   appRoutes,
+    //   { enableTracing: true } // <-- debugging purposes only
+    // )
   ],
   providers: [],
   bootstrap: [AppComponent]
