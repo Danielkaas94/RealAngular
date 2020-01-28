@@ -17,16 +17,6 @@ import { AboutComponent } from './component/about/about.component';
 import { RoutingModule } from './routing/routing.module';
 import { CountdownTimerComponent } from './component/countdown-timer/countdown-timer.component';
 
-// TODO:
-//    • ng generate module app-routing --module app --flat
-// https://stackblitz.com/angular/gollxnxqxom
-// https://alligator.io/angular/navigation-routerlink-navigate-navigatebyurl/
-// const appRoutes: Routes = [
-//   { path: 'balls', component: BallsComponent },
-//   { path: 'triangle', component: JheyTriangleComponent },
-//   { path: 'test', component: TestComponent },
-//   { path: 'about', component: AboutComponent },
-// ];
 
 @NgModule({
   declarations: [
@@ -39,7 +29,6 @@ import { CountdownTimerComponent } from './component/countdown-timer/countdown-t
     JustTestingPipe,
     BallsComponent,
     JheyTriangleComponent,
-    // NavComponent,
     AboutComponent,
     CountdownTimerComponent,
   ],
@@ -48,10 +37,6 @@ import { CountdownTimerComponent } from './component/countdown-timer/countdown-t
     FormsModule,
     ReactiveFormsModule,
     RoutingModule
-    // RouterModule.forRoot(
-    //   appRoutes,
-    //   { enableTracing: true } // <-- debugging purposes only
-    // )
   ],
   providers: [],
   bootstrap: [AppComponent]

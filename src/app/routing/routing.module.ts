@@ -9,7 +9,10 @@ import { JheyTriangleComponent } from '../component/jhey-triangle/jhey-triangle.
 import { AboutComponent } from '../component/about/about.component';
 import { CountdownTimerComponent } from '../component/countdown-timer/countdown-timer.component';
 
-
+// TODO:
+//    • ng generate module app-routing --module app --flat
+// https://stackblitz.com/angular/gollxnxqxom
+// https://alligator.io/angular/navigation-routerlink-navigate-navigatebyurl/
 
 const appRoutes: Routes = [
   { path: 'balls', component: BallsComponent },
