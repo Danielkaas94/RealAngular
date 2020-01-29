@@ -1,0 +1,22 @@
+body {
+    height: 2000px;
+    background: #f1f1f1;
+  }
+  
+  #mySVG {
+    position: fixed;
+    top: 15%;
+    width: 400px;
+    height: 210px;
+    margin-left:-50px;
+    right: 25%;
+  }
+
+  #mySVG-heart {
+    position: fixed;
+    top: 15%;
+    width: 850px;
+    height: 710px;
+    margin-left:-50px;
+    right: 2%;
+  }

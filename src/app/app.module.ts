@@ -16,6 +16,7 @@ import { AboutComponent } from './component/about/about.component';
 
 import { RoutingModule } from './routing/routing.module';
 import { CountdownTimerComponent } from './component/countdown-timer/countdown-timer.component';
+import { ScrollDrawingComponent } from './component/scroll-drawing/scroll-drawing.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { CountdownTimerComponent } from './component/countdown-timer/countdown-t
     JheyTriangleComponent,
     AboutComponent,
     CountdownTimerComponent,
+    ScrollDrawingComponent
   ],
   imports: [
     BrowserModule,

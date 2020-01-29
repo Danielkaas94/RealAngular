@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CountdownTimerComponent implements OnInit {
 
-  date: string = "April 25,2020 13:37:13";
+  date: string = "February 14,2020 13:37:13";
   dato: Date = new Date(this.date);
 
   constructor() { }
