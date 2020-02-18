@@ -8,6 +8,8 @@ import { BallsComponent } from 'src/app/component/balls/balls.component';
 import { JheyTriangleComponent } from '../component/jhey-triangle/jhey-triangle.component';
 import { AboutComponent } from '../component/about/about.component';
 import { CountdownTimerComponent } from '../component/countdown-timer/countdown-timer.component';
+import { SacredLoremComponent } from '../component/sacred-lorem/sacred-lorem.component';
+
 
 // TODO:
 //    • ng generate module app-routing --module app --flat
@@ -20,6 +22,7 @@ const appRoutes: Routes = [
   { path: 'test', component: TestComponent },
   { path: 'about', component: AboutComponent },
   { path: 'countDownTimer', component: CountdownTimerComponent },
+  { path: 'sacredLorem', component: SacredLoremComponent },
 ];
 
 @NgModule({
