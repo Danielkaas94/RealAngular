@@ -19,6 +19,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Jhey's [Triangle](https://codepen.io/jh3y/pen/bzJOOR) 🔺
 * RouterLink 🔗
 * Countdown Timer ⏱
+* Sacred Lorem Ipsum 📜
 * To Be Continued™
 
 </details>
